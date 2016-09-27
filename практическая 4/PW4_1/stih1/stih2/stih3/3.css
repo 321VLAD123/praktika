@@ -1,0 +1,13 @@
+h1
+{
+	font-size: 30px;
+	font-family: monospace;
+	text-align: left;
+}
+body
+{
+	color: pink;
+	list-style-image: url('1.jpg');
+	list-style-position: inside;
+	
+}

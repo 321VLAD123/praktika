@@ -1,0 +1,61 @@
+a:link 
+{
+	color: #990000;
+	font-weight: 100;
+	text-decoration: none;
+}
+
+a:hover 
+{
+	color: #ff0033;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a:active 
+{
+	color: #CC9933;
+	font-weight: bold;
+	text-decoration: underline;
+	background-color: #000099;
+}
+
+a:visited 
+{
+	color: #CC9933; font-weight: 100;text-decoration: none;
+}
+
+h1 
+{
+    text-align: center;
+}
+h2
+{
+   text-align: center;
+    color: brown;
+}
+p
+{
+     margin-left: 2.5cm;
+}
+li
+{
+   
+    list-style-position: outside;
+    margin-left: 9cm;
+    font-size: 20px;
+}
+ul
+{
+     font-family: cursive;
+}
+body
+{
+    background-image: url(http://i89.beon.ru/85/83/208385/26/10563026/19586220_Ajy.jpeg);
+ 
+    background-repeat: repeat
+}
+ol
+{
+    font-size:25px;   
+}

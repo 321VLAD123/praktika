@@ -1,0 +1,45 @@
+
+a:link 
+{
+	color: #990000;
+	font-weight: 100;
+	text-decoration: none;
+}
+
+a:hover 
+{
+	color: #ff0033;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a:active 
+{
+	color: #CC9933;
+	font-weight: bold;
+	text-decoration: underline;
+	background-color: #000099;
+}
+
+a:visited 
+{
+	color: #CC9933; font-weight: 100;text-decoration: none;
+}
+
+li 
+{
+	font-size: 25px;
+	height: 50px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+body
+{
+	background-image: url(http://www.bankoboev.ru/fons/MTAxMzg=/Bankoboev.Ru_abstraktnye_stebelki_cvetov_i_bliki_sinego_fona_jpg.jpg);
+}
+
+h1
+{
+	text-align: center;
+}

@@ -1,0 +1,522 @@
+/*убираем все стандарные отступы для все страницы и задаем фоновый цвет */
+body{
+	padding: 0;
+	margin: 0;
+    background-color: #f4f5f7;
+}
+/*блок запрещающий обтекания обьектов */
+.clear{
+    clear: both;
+}
+/*задает ширину сайта, и чтобы саит отображался на центру экрана */
+.container {
+	width: 980px;
+	margin: 0 auto;
+}
+/* шапка сайта*/
+.header{
+	margin: 0 auto;
+    color: #fff;
+}
+/* задаем цвет,высту и ширину шапки*/
+.fon_header{
+	min-width: 1050px;
+	width: auto;
+	height: 195px;
+	background-color: #000;
+}
+/*высота кондейнера с текстом */
+.header_content{
+	height: 105px;
+}
+/*расположение голотипа */
+.header_logo{
+	float: left;
+    margin-left: 32px;
+}
+/* Шрифт и выравнивание для Design Studio */
+.header_logo h1
+{
+    color: white;
+    font-size: 50px;
+    font-family:"NewsGoth BT";
+    font-weight: bold;
+    line-height: 0.8em;
+}
+/* Шрифт и выравнивание для Creative Ideas */
+.header_logo h6
+{
+    margin-top: -30px;
+    color: #848484;
+    font-size: 14px;
+    font-family: "NewsGoth BT";
+    font-weight: bold;
+    margin-left: 150px;
+    
+} 
+/* Делаем Design зеленным цветом */
+.header_logo strong
+{
+    color: #71ba02;
+}
+/* прижатие верхего-меню к праваой границе*/
+.header_spisok{
+	float: right;
+}
+/*создание и расположения списка верхнего-меню */
+.header_spisok ul{
+	list-style-type: none;
+	margin-top: 40px;
+	padding-left: 0;
+    font-size: 20px;
+}
+/* создание и расположения элементов верхнего-меню*/
+.header_spisok li{
+	float: left;
+	display: inline;
+	margin-right: 50px;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 3px solid #212121;
+}
+/*убираем у последнего элемента меню вертикальеую черту */
+.header_spisok li:last-child{
+    border-right: none;
+}
+/* созжаем ссылки на меню*/
+.header_spisok a{
+	text-decoration: none;
+    color: #FFF;
+}
+/*задаем цвет при наведении на элемент */
+.header_spisok a:hover
+{
+    color: #71ba02;
+}
+
+/*задаем параментры для цетрального меню:сглаживания углов,ширина, высота,позиция,отспуты */
+.menu
+{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 980px;
+    height: 440px;
+    margin: 0 auto;
+    position: relative;
+    top: -88px;
+    background-color: white;
+    padding:  1%;
+    box-shadow: 0 12px 4px -4px rgba(0, 0, 0, .5); 
+    
+}
+/*задаем параметры для картинки меню */
+.menu img
+{
+    float: right;
+    width: 830px;
+    min-height: 300px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+   
+}
+/*отвечает за элемент который закрашивается при наведении */
+.menu .naved
+{
+    padding: 10px;
+    width: 90px;
+    background-color: #f4f5f7;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
+/* задает цвет при наведении*/
+.menu .naved:hover
+{
+    background-color: #080808;
+}
+
+/*список меню */
+.menu ul
+{
+    float: left;
+    list-style-type: none;
+}
+/*элементы списка */
+.menu li
+{
+    text-align: center;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    padding: 3%;
+      
+}
+/*ссылки меню */
+.menu a
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'NewsGothicBT Bold';
+    font-weight: bold;
+}
+/*отвечает за параметры текста меню(справа) */
+.menu .text{
+    position: absolute;
+    float: right;
+    color: white;
+    text-align: center;
+    margin: 10px 0 0 700px;
+    min-height: 300px;
+}
+/*параметры заголовка Progress */
+.menu .text h1{
+    font-size: 50px;
+    font-family: 'NewsGothicBT';
+}
+/*параметры заголовка Business Company */
+.menu .text h3{
+    margin-top: -30px;
+    font-family: 'NewsGothicBT';
+}
+/*параментры кнопки под текстом */
+.menu .text .kponka4
+{
+	text-align:center;
+	width:119px;
+	height:15px;
+	border:solid 1px #dcdddf;
+	padding-top:15px;
+	padding-bottom:15px;
+	font-size:16px;
+    margin-top: -10px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    margin: 30px 60px;
+}
+/*задает цвет при наведении на кнопку */
+.menu .kponka4:hover
+{
+	background-color:#70ba02;
+}
+/*задает параметры середине сайта */
+.content{
+    min-height: 90px;
+    width: auto;
+    margin: 0 auto;
+}
+/*задает парамантры заголовку */
+.content h1{
+    color: black;
+    text-align: center;
+    margin: 0;
+    font-size: 42px;
+    font-family: 'NewsGothicBT';
+    font-weight: 300;
+}
+/*задает парамантры линии */
+.content hr{
+    color: #dedfe0;
+    margin: 0 90px;
+}
+/*общее для 3 элементов под content  */
+.telo
+{
+    margin: 0 auto;
+}
+/*задает высоту блока */
+.telo_content{
+	min-height: 400px;
+}
+/*отвечает за параметры 1(левого) элемента */
+.telo .set1
+{
+    min-height: 420px;
+    width: 20%;
+    float: left;
+    line-height: 2em;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 37px 60px 44px 0px;
+}
+/*убираем маркеры у 1(левого) элемента*/
+.telo .set1 .qw_set1
+{
+    list-style-type: none;
+}
+/*задаем параментры списка элемента для 1(левого) элемента */
+.telo .set1 ul.qw_set1 li
+{
+    line-height: 3em;
+    border-bottom: 1px solid #dedfe0;
+}
+/*делаем список ссылками 1(левого) элемента */
+.telo .set1 ul.qw_set1 a
+{
+    text-decoration: none;  
+    color: #808080;
+}
+/* при наведении на ссылку меняет цвет*/
+.telo .set1 ul.qw_set1 a:hover
+{
+    color: #71ba02;
+}
+/*отвечает за средний элемент */
+.telo .Welcome
+{
+    min-height: 420px;
+    width: 25%;
+    float: left;
+    margin: 25px 1px 44px 70px;
+    
+}
+/*задаем параметры для зогловка Welcome! */
+.telo .Welcome h2
+{
+    font-size: 23px;
+    font-family: 'NewsGothicBT Bold';
+}
+/*задаем параметры для карттинки */
+.telo .Welcome img
+{
+    border: 4px solid #ffffff;
+    border-radius: 10px;
+    margin-top: -10px;  
+}
+/*задаем параметры для теста */
+.telo .Welcome p
+{
+    color: #808080;
+    font-family: sans-serif;
+    font-size: 14px;
+    position: relative;
+
+}
+/*задаем параметры для Design Studio Templte */
+.telo .Welcome u
+{
+    color: #080808
+}
+/*задаем параметры для кнопки */
+.telo .Welcome .kponka1
+{
+	text-align:center;
+	width:119px;
+	height:15px;
+	border:solid 1px #dcdddf;
+	padding-top:15px;
+	padding-bottom:15px;
+	box-shadow:0px 0px 3px black;
+	font-size:16px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+/*задаем параметры при наведении на кпонку меняла цвет */
+.telo .Welcome .kponka1:hover
+{
+	background-color:#70ba02;
+}
+/*задаем параметры для 3 элемента(справа) */
+.telo .set2
+{
+    min-height: 420px;
+    width: 25%;
+    float: right;
+    margin: 25px 85px 44px 70px;
+}
+/*задаем параметры для текста */
+.telo .set2 p
+{
+	font-size:15px;
+	margin-bottom:9.5px;
+	margin-top:9.5px;
+	color:#808080;
+}
+/*меняем обычные маркеры на картинку */
+.telo .set2 ul
+{
+	list-style-image:url(../image/icn.png);  
+}
+/*задаем параметры для элемента списка */
+.telo .set2 li
+{
+	font-size:22px;
+	padding-bottom:6px;
+}
+/*задаем параметры для кнопки */
+.telo .set2 .kponka2
+{
+	text-align:center;
+	width:119px;
+	height:15px;
+	border:solid 1px #dcdddf;
+	padding-top:15px;
+	padding-bottom:15px;
+	box-shadow:0px 0px 3px black;
+	font-size:16px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+/* задаем параметры при наведении на кпонку меняла цвет*/
+.telo .set2 .kponka2:hover
+{
+	background-color:#70ba02;
+}
+/* низ сайта(делаем по середине экрана)*/
+.footer{
+	margin: 0 auto;
+}
+/*задаем параметры для фона футера(ширину, цвет,высоту) */
+.fon_footer{
+	min-width: 1050px;
+	width: auto;
+	min-height: 195px;
+	background-color: #000;
+}
+/*задаем параметры высоты контейнера */
+.footer_content{
+	min-height: 105px;
+}
+/*задаем параметры для левого элемента футера */
+.footer .nis1
+{
+    min-height: 180px;
+    width: 23%;
+    float: left;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 5% 2% 2% 0;
+    
+}
+/*задаем параметры для заголовка левого элемента */
+.footer .nis1 span
+{
+    color: #ffffff;
+    font-size: 23px;
+    margin-left: 10px;
+}
+/*убираем у списка маркеры */
+.footer .qw_nis1
+{
+    list-style-type: none;
+}
+/*задаем параметры для элементов списка(подчеркиваем элементы снизу) */
+.footer ul.qw_nis1 li
+{
+    line-height: 3em;
+    border-bottom: 1px solid #e8e9eb;
+    font-size: 14px;
+}
+/*убираем подчеркивание у последнего элемента списка */
+.footer ul.qw_nis1 li:last-child
+{
+    border-bottom: none;
+}
+/*делает элементы списка в ссылки */
+.footer ul.qw_nis1 a
+{
+    text-decoration: none;  
+    color: #808080;
+}
+/*при наведении на ссылку цвет меняется */
+.footer ul.qw_nis1 a:hover
+{
+    color: #71ba02;
+}
+/*задаем высоту картинок */
+.footer .qw_nis1 img
+{
+    height: 20px;
+}
+/*задаем параметры для центрального элемента футера */
+.footer .nis_center
+{
+    min-height: 180px;
+    width: 35%;
+    float: left;
+    margin: 5% 3% 2% 3%;
+    font-family: sans-serif;
+}
+/*задаем параметры для заголовка цетрального блока футера */
+.footer .nis_center span
+{
+    color: #ffffff;
+    font-size: 23px; 
+}
+
+/*задаем параметры для текста */
+.footer .nis_center p
+{
+    color: #808080;
+    font-family: sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: 10px;
+
+}
+/*задаем праментры кнопки */
+.footer .nis_center .kponka3
+{
+	width:119px;
+	height:15px;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-top:20.5px;
+	font-size:16px;
+    background-color: #ffffff;
+    margin-left: -1px;
+    text-align: center;
+    cursor: pointer;
+}
+/*при наведении на кпонку ее цвет меняется */
+.footer .nis_center .kponka3:hover
+{
+	background-color:#70ba02;
+}
+/*задаем параментры для левого элемента футера */
+.footer .nis2
+{
+    min-height: 180px;
+    width: 30%;
+    float: right;
+    margin: 5% 3% 3% 1%;
+    font-family: sans-serif;
+}
+/*меняем маркеры списка на картинку */
+.footer .nis2 ul
+{
+	list-style-image:url(../image/icn.png);
+    margin-left: -10px;
+  
+}
+/*задаем параментры для элементов списка */
+.footer .nis2 li
+{
+	font-size:14px;
+	padding-bottom:6px;
+}
+/*задаем параментры для заголовка  */
+.footer .nis2 span
+{
+    color: #ffffff;
+    font-size: 23px; 
+}
+/*задаем параментры для линии футера */
+.footer hr
+{
+    width: 100%;
+}
+/* задаем параментры для самой последней строчки*/
+.footer .copyright
+{
+    text-align: center;
+	color: #808080;
+    font-size: 14px;
+}
