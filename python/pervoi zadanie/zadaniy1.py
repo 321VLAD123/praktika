@@ -1,0 +1,1 @@
+print raw_input("Input string: ")[::-1]
