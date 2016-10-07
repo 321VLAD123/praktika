@@ -1,9 +1,8 @@
-print raw_input("vedite znashenie: ")
-	def bubble_sort(seq): 
-     changed = True 
-     while changed: 
-         changed = False 
-         for i in xrange(len(seq) - 1): 
-            if seq[i] > seq[i+1]: 
-              seq[i], seq[i+1] = seq[i+1], seq[i] 
-              changed = True
+def sortirovka(q):
+	sort = sorted(q)
+	otvet = ""
+	for char in sort:
+		otvet = otvet + str(char)
+	print ("vashe shiclo: " + otvet)
+a = raw_input("vvedite shiclo: ")
+sortirovka(a)
