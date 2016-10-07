@@ -1,0 +1,135 @@
+body
+{
+   padding: 0;
+	margin: 0;
+}
+
+.clear{
+    clear: both;
+}
+
+.tityl{
+    text-align: center;
+    margin-top: 250px;
+}
+a 
+{ 
+    text-decoration: none;
+    color: black;
+}
+ 
+p 
+{
+    text-indent: 50px;
+}
+h1
+{
+  text-align: center;
+    
+}
+
+.kartinka
+{
+    text-align: center;
+}
+.perexod
+{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.perexod h1
+{
+    font-size: 60px;
+}
+
+.telo{
+    height:  960px;
+    width: 1200px;
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.menu li 
+{
+	font-size: 50px;
+	height: 50px;
+	text-align: center;
+	margin-top: 50px;
+}
+.menu ul
+{
+    margin-top: -850px;
+    margin-left: 600px;
+    width: 750px;
+}
+
+.menu a:hover 
+{
+	color: #ff0033;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.nasad
+{
+ margin-top: -850px; 
+    margin-left: 10px;
+}
+
+.cnicok li{
+    font-size: 40px;
+	margin-top: 30px;
+}
+
+.cem{
+    font-size: 30px;
+    text-align: justify;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: -1830px;
+}
+
+.cem h2
+{
+    text-align: center;
+}
+
+.cem p
+{
+    text-indent: -30px;
+}
+.telovcem
+{
+    height: 1800px;
+}
+.nasadvsem
+{
+    margin-top: -1750px;
+    margin-left: 8px;
+}
+.menuvsem
+{
+    margin-left: 380px;
+}
+.tablisha{
+    margin: 0px auto;
+    border-spacing: 0px;
+    text-align: center;
+}
+
+.telovdevatom
+{
+    height:  1460px;
+    width: 1200px;
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.nasadvdevatom
+{
+    margin-top: -1450px;
+    margin-left: 8px;
+}

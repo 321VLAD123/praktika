@@ -1,7 +1,9 @@
-a = [5,2,7,4,0,9,8,6] 
-n = 1 
-while n < len(a):
-     for i in range(len(a)-n):
-          if a[i] > a[i+1]:
-               a[i],a[i+1] = a[i+1],a[i]
-     n += 1
+print raw_input("vedite znashenie: ")
+	def bubble_sort(seq): 
+     changed = True 
+     while changed: 
+         changed = False 
+         for i in xrange(len(seq) - 1): 
+            if seq[i] > seq[i+1]: 
+              seq[i], seq[i+1] = seq[i+1], seq[i] 
+              changed = True
