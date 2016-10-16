@@ -1,4 +1,7 @@
-@import "http://webfonts.ru/import/americantext.css";
+@import "http://webfonts.ru/import/americantext.css"; /*font-family: 'American TextC';*/
+@import "http://webfonts.ru/import/bukhariscript.css"; /*font-family: 'Bukhari Script';*/
+
+@import "http://webfonts.ru/import/leokadia.css"; /*font-family: 'Leokadia Deco';*/
 body{
 	padding: 0;
 	margin: 0;
@@ -162,4 +165,37 @@ a
     margin-top: 230px;
     font-family: 'American TextC';
     font-size: 50px;
+}
+.glavmenu
+{
+    list-style-type: none;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Leokadia Deco';
+}
+.glavmenu a:link 
+{
+	color: #0ACF00;
+	font-weight: 100;
+	text-decoration: none;
+}
+
+.glavmenu a:hover 
+{
+	color: #ff0033;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.glavmenu a:active 
+{
+	color: #CC9933;
+	font-weight: bold;
+	text-decoration: underline;
+	background-color: #000099;
+}
+
+.glavmenu a:visited 
+{
+	color: #052A6E; font-weight: 100;text-decoration: none;
 }
